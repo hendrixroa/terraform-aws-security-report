@@ -27,3 +27,7 @@ variable "runtime" {
 variable "enabled" {
   default = 1
 }
+
+variable "code_source" {
+  default = "src"
+}
