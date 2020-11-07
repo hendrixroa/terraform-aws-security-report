@@ -3,8 +3,8 @@ module "lambda_security_report" {
   enabled              = var.enabled
   code_location        = "${path.module}/${var.code_source}"
   filename             = "securityreport.zip"
-  lambda_iam_role      = aws_iam_role.lambda_basic_role.arn
-  lambda_function_name = "SecurityReport"
+  lambda_iam_role      = aws_iam_role.main.arn
+  lambda_function_name = var.name
   lambda_runtime       = var.runtime
   timeout              = var.timeout
   memory               = var.memory

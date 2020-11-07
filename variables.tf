@@ -31,3 +31,7 @@ variable "enabled" {
 variable "code_source" {
   default = "src"
 }
+
+variable "name" {
+  default = "SecurityReport"
+}
