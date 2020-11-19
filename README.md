@@ -1,6 +1,6 @@
 # Lambda Security report
 
-Lambda that notify security issues.
+Lambda that notifies security issues.
 
 ### Main features:
 
